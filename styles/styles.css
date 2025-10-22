@@ -1,0 +1,50 @@
+body {
+    background-image: url("/assets/images/Fondo.jpeg");
+}
+
+.titulo {
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 30px;
+    color: #61462b;
+    text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #cab39b;
+    padding: 20px;
+}
+
+.sub {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: dashed;
+    border-radius: 25px;
+    background-color: #cab39b;
+    margin: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    text-align: center;
+}
+
+.estilos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
